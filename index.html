@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SILAPOR PPK Konut — Pelaporan Pelanggaran Perda & Trantibum</title>
+  <meta name="description" content="Portal pelaporan pelanggaran Perda & Trantibum. Laporkan cepat, tindak tepat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Beranda">
+        <img src="assets/logo.svg" alt="Logo SILAPOR">
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#cara">Cara Laporkan</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontak" class="btn btn--ghost">Kontak</a>
+        <a href="#lapor" class="btn">Lapor Sekarang</a>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navDrawer" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="navDrawer" class="nav-drawer" hidden>
+      <a href="#tentang">Tentang</a>
+      <a href="#cara">Cara Laporkan</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#lapor" class="btn">Lapor Sekarang</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Laporkan Pelanggaran <span class="accent">Perda & Trantibum</span><br> secara cepat dan terintegrasi</h1>
+          <p>Saluran resmi aduan masyarakat. Data Anda kami lindungi, laporan ditindak oleh petugas berwenang.</p>
+          <div class="cta">
+            <a href="#lapor" class="btn btn--lg">Lapor Sekarang</a>
+            <a href="#tentang" class="btn btn--lg btn--ghost">Pelajari Dulu</a>
+          </div>
+          <ul class="badges" role="list">
+            <li>📍 Kabupaten (ubah nama)</li>
+            <li>⏱️ Respons awal &lt; 1×24 jam*</li>
+            <li>🔒 Privasi terjaga</li>
+          </ul>
+          <small class="note">*Target internal layanan (dapat disesuaikan).</small>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="mockup">
+            <div class="mockup-status">Status Laporan • 23/09</div>
+            <div class="mockup-card">
+              <b>#SPL-2025-0912</b>
+              <p>Pedagang melanggar zona larangan (Jl. Poros)</p>
+              <span class="chip chip--progress">Sedang Ditindak</span>
+            </div>
+            <div class="mockup-card">
+              <b>#SPL-2025-0911</b>
+              <p>Penumpukan sampah liar di TPS</p>
+              <span class="chip chip--done">Selesai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Tentang <span class="accent">SILAPOR</span></h2>
+          <p>SILAPOR (Sistem Laporan Pelanggaran Perda & Trantibum) adalah portal satu pintu untuk menyampaikan aduan masyarakat terkait ketertiban umum, kebersihan, dan pelanggaran peraturan daerah. Laporan tersalurkan ke tim pengelola dan <em>seksi teradu</em> untuk ditindaklanjuti.</p>
+          <ul class="list-check">
+            <li>Form pelaporan sederhana & multi-lampiran</li>
+            <li>Pelacakan nomor tiket dan notifikasi status</li>
+            <li>Integrasi WhatsApp & email (opsional)</li>
+            <li>Dashboard internal untuk petugas</li>
+          </ul>
+        </div>
+        <div class="card stat">
+          <div class="stat-item">
+            <b>24/7</b><span>Layanan Aduan</span>
+          </div>
+          <div class="stat-item">
+            <b>200ms</b><span>Rata-rata delay server*</span>
+          </div>
+          <div class="stat-item">
+            <b>&lt;50MB/minggu</b><span>Pemakaian data IoT*</span>
+          </div>
+          <small class="note">*Angka contoh dari PoC Anda; sesuaikan.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="cara" class="section section--alt">
+      <div class="container">
+        <h2>Cara Melaporkan</h2>
+        <ol class="steps">
+          <li><span>1</span> Isi data & uraian kejadian, lampirkan foto/video.</li>
+          <li><span>2</span> Dapatkan nomor tiket & tautan pelacakan.</li>
+          <li><span>3</span> Petugas verifikasi dan menyalurkan ke seksi terkait.</li>
+          <li><span>4</span> Tindak lanjut 1×24 jam, status dikirim via WA/email.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="kategori" class="section">
+      <div class="container">
+        <h2>Kategori Pelanggaran</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Kebersihan & Lingkungan</h3>
+            <p>Pembuangan sampah liar, polusi, drainase, dsb.</p>
+          </article>
+          <article class="card">
+            <h3>Ketertiban Umum</h3>
+            <p>PKL tidak pada tempatnya, parkir liar, kebisingan.</p>
+          </article>
+          <article class="card">
+            <h3>Bangunan/IMB</h3>
+            <p>Pelanggaran izin, okupansi trotoar/fasilitas umum.</p>
+          </article>
+          <article class="card">
+            <h3>Lainnya</h3>
+            <p>Masukkan kategori lain sesuai Perda.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lapor" class="section section--focus">
+      <div class="container grid-2">
+        <div>
+          <h2>Form Laporan Masyarakat</h2>
+          <p>Isi form di samping. Jika darurat, hubungi <a href="tel:112">112</a> atau posko Satpol PP setempat.</p>
+          <div class="hotline">
+            <a class="btn btn--ghost" href="https://wa.me/6281234567890?text=Halo%20SILAPOR%2C%20saya%20ingin%20melapor..." target="_blank" rel="noopener">WhatsApp Petugas</a>
+            <a class="btn btn--ghost" href="mailto:pengaduan@contoh.go.id?subject=Laporan%20SILAPOR">Email Pengaduan</a>
+          </div>
+        </div>
+        <form class="form" onsubmit="return submitReport(event)">
+          <label>Nama (opsional)
+            <input type="text" name="nama" placeholder="Boleh dikosongkan">
+          </label>
+          <label>Kontak (WA/Email)
+            <input type="text" name="kontak" placeholder="08xx / nama@contoh.go.id" required>
+          </label>
+          <label>Lokasi Kejadian
+            <input type="text" name="lokasi" placeholder="Alamat/Patokan/Maps" required>
+          </label>
+          <label>Uraian Kejadian
+            <textarea name="uraian" rows="4" placeholder="Ceritakan apa yang terjadi..." required></textarea>
+          </label>
+          <label>Lampiran (foto/video)
+            <input type="file" name="lampiran" multiple accept="image/*,video/*">
+          </label>
+          <div class="agree">
+            <input type="checkbox" id="agree" required>
+            <label for="agree">Saya menyetujui kebijakan privasi & keabsahan laporan.</label>
+          </div>
+          <button class="btn btn--lg" type="submit">Kirim Laporan</button>
+          <p class="form-note">Dengan mengirim, Anda akan diarahkan ke WhatsApp/email sesuai pengaturan.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section section--alt">
+      <div class="container">
+        <h2>Pertanyaan yang Sering Diajukan</h2>
+        <div class="faq">
+          <details>
+            <summary>Apakah identitas pelapor dirahasiakan?</summary>
+            <p>Ya, kami melindungi kerahasiaan pelapor sesuai kebijakan privasi dan regulasi yang berlaku.</p>
+          </details>
+          <details>
+            <summary>Berapa lama proses tindak lanjut?</summary>
+            <p>Target respons awal 1×24 jam kerja. Waktu penyelesaian bergantung pada kompleksitas kasus.</p>
+          </details>
+          <details>
+            <summary>Bagaimana cara memantau status laporan?</summary>
+            <p>Setiap laporan mendapat nomor tiket & tautan pelacakan yang dapat diakses kapan saja.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Kontak & Alamat</h2>
+          <p>Satpol PP / Dinas Terkait<br>Jl. Contoh No. 123, Kabupaten X</p>
+          <p>Telepon: <a href="tel:+6240123456">+62 401 23456</a><br>Email: <a href="mailto:pengaduan@contoh.go.id">pengaduan@contoh.go.id</a></p>
+        </div>
+        <div class="card map">
+          <iframe title="Lokasi Kantor" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Kendari&z=13&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#lapor" class="floating-cta" aria-label="Lapor Sekarang">Lapor</a>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="y"></span> SILAPOR • Dibuat dengan ❤️ oleh Tim Anda</p>
+      <nav aria-label="Tautan footer">
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Syarat Layanan</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

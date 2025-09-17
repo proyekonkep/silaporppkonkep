@@ -160,3 +160,10 @@ p{margin:.5rem 0 1rem}
 @media (max-width:540px){
   .brand-logos img{ height:34px; }
 }
+
+/* Samakan ukuran logo di header */
+.brand-logos img {
+  height: 40px;   /* sesuaikan tinggi, sama dengan logo Konkep */
+  width: auto;    /* biar proporsional */
+  object-fit: contain; /* jaga proporsi */
+}

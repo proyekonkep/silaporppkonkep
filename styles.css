@@ -144,3 +144,19 @@ p{margin:.5rem 0 1rem}
 @media (max-width:540px){
   .cards--kategori{grid-template-columns:1fr;}
 }
+
+/* === Multi-logo di header kiri === */
+.brand-logos{
+  display:flex;
+  align-items:center;
+  gap:12px;           /* jarak antar logo */
+}
+.brand-logos img{
+  height:40px;        /* samakan tinggi logo */
+  width:auto;
+}
+
+/* Opsional: kecilkan logo di layar kecil */
+@media (max-width:540px){
+  .brand-logos img{ height:34px; }
+}

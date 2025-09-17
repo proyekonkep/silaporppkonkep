@@ -19,6 +19,6 @@ function submitReport(e){
   const uraian = data.get('uraian');
   const msg = `SILAPOR - Laporan Baru:%0A%0ANama: ${nama}%0AKontak: ${kontak}%0ALokasi: ${lokasi}%0AUraian: ${uraian}`;
   // Redirect ke WhatsApp sebagai contoh (ubah nomor WA di bawah)
-  window.location.href = `https://wa.me/6281234567890?text=${msg}`;
+  window.location.href = `https://wa.me/6285943131733?text=${msg}`;
   return false;
 }
